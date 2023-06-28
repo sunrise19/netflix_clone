@@ -1,0 +1,196 @@
+body{
+    background-color: rgba(0, 8, 29, 1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header>div.nav{
+    display: flex;
+    width: 94%;
+    justify-content: space-between;
+    margin: auto;
+    height: 73px;
+    align-items: center;
+}
+header>div.nav>a .logo{
+    width: 11.63rem;
+    height: 5.0rem;
+    margin-left: -10%;
+}
+header>div.nav>a.sign-in{
+    text-decoration: none;
+    background-color: rgba(229, 9, 20, 1);
+    color: white;
+    border-radius: 5px;
+    padding: 6px 15px;
+    height: 20px;
+    font-size: 13px;
+    margin-right: 0.2%;
+}
+
+header>div.hero{
+    background-image: linear-gradient(65.68deg, rgba(0, 8, 29, 0.6) 9.51%, rgba(53, 13, 49, 0.6) 72.89%, rgba(132, 5, 25, 0.6) 101.01%),linear-gradient(102.21deg, rgba(0, 0, 0, 0.04) 16.09%, rgba(1, 1, 1, 0.17) 39.27%, rgba(1, 1, 1, 0.24) 64.25%, rgba(4, 4, 4, 0.8) 96.63%), url('/images/NG-en-20230515-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 94%;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 0.4%;
+    height: 600px;
+}
+
+header>div.hero>div{
+    color: white;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+header>div.hero>div h1{
+    font-size: 55px;
+    line-height: 1.4;
+    font-weight: 900;
+}
+header>div.hero>div p.first-para{
+    font-size: 23px;
+    font-weight: 500;
+    margin-top: -2%;
+}
+header>div.hero>div p.second-para{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 3%;
+}
+
+input[type=text]{
+    height: 55px;
+    width: 33%;
+    background-color: rgba(0, 0, 0, 0.322);
+    border: 0.5px solid rgba(255, 255, 255, 0.349);
+    border-radius: 5px;
+    padding: 0px 0px 0px 20px;
+    color: rgba(255, 255, 255, 0.815);
+    font-size:18px;
+    font-weight: 500;
+}
+input::placeholder{
+    color: rgba(255, 255, 255, 0.767);
+    font-size:17px;
+    font-weight: 500;
+}
+.get-started{
+    background-color: rgba(229, 9, 20, 1);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 12px 30px 16px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.emaill-address:focus{
+    border-width: 10px;
+}
+
+/* styling for section after header */
+.after-header{
+    width: 94%;
+    /* height: 700px; */
+    background-image: linear-gradient(146.51deg, rgba(0, 8, 29, 0.75) 0%, rgba(53, 13, 49, 0.6) 80.34%, rgba(132, 5, 25, 0.6) 110.79%);
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 1.5%;
+}
+hr{
+    width: 85%;
+    height: 8px;
+    background-color: rgba(255, 255, 255, 0.11);
+    border: none;
+    border-radius: px;
+}
+
+.after-header .enjoy{
+    color: white;
+    width: 85%;
+    padding: 10px 0;
+    margin: auto;
+    align-items: center;
+    display: flex;
+}
+.after-header .enjoy::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.text-div{
+    float: left;
+    width: 50%;
+}
+.img-div{
+    width: 50%;
+    float: left;
+}
+
+.text-div>h1{
+    font-size: 42px;
+    line-height: 1.5;
+}
+.text-div>p{
+    margin-top: -4%;
+    font-size: 16.5px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.img-div>img{
+    width: 100%;
+}
+
+/* styling for FAQ */
+.faq{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    color: white;
+}
+.faq>h1{
+    font-size: 35px;
+}
+.faq>ul{
+    margin: 0;
+    padding: 0;
+}
+.faq>ul>li{
+    list-style-type: none;
+    /* background-color: rgba(34, 51, 98, 1); */
+    background-color: rgba(19, 33, 68, 1);
+}
+.faq>ul>li>h3{
+    padding: 30px;
+    font-weight: 500;
+    font-size: 25px;
+    transition-duration: 250ms;
+    transition-property: background-color;
+    transition-timing-function: cubic-bezier(0.9, 0, 0.51, 1);
+}
+.faq>ul>li>div{
+    margin-top: -10px;
+    display: none;
+    padding: 30px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.faq>ul>li>h3:hover{
+    background-color: rgba(34, 51, 98, 1);
+    transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+    cursor: pointer;
+}
+
+.faq>ul>li:hover div{
+    display: block;
+}
+
+.faq-hr{
+    height: 1px;
+    width: 100%;
+    background-color: rgba(0, 8, 29, 1);;
+}
